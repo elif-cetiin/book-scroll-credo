@@ -1,27 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Scroll - Credo</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Scroll - Credo</title>
 
-    <link rel="stylesheet" href="css/styles.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
 
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <!-- jQuery (required by slideshow.js) -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
-    <script src="js/slideshow.js" defer></script>
+  <!-- JavaScript (your slideshow logic) -->
+  <script src="js/slideshow.js" defer></script>
 </head>
 <body>
 
-<div class="slideshow">
-    <ul>
-        <li><img src="https://covers.openlibrary.org/b/id/10523359-M.jpg" alt="Book 1"></li>
-        <li><img src="https://covers.openlibrary.org/b/id/11153244-M.jpg" alt="Book 2"></li>
-        <li><img src="https://covers.openlibrary.org/b/id/12673185-M.jpg" alt="Book 3"></li>
-        <li><img src="https://covers.openlibrary.org/b/id/11326019-M.jpg" alt="Book 4"></li>
-        <li><img src="https://covers.openlibrary.org/b/id/12857492-M.jpg" alt="Book 5"></li>
-    </ul>
-</div>
+  <header style="max-width:900px;margin:32px auto;padding:0 16px;">
+    <h1 style="margin:0 0 8px;font-size:28px;">book-scroll-credo</h1>
+    <p style="margin:0 0 16px;color:#444;">
+      Embeddable book cover slideshow widget for LibGuides (HTML, CSS, jQuery).
+      <br><a href="https://library.louisiana.edu/" target="_blank" rel="noopener">University Libraries - library.louisiana.edu</a>
+    </p>
+    <hr style="border:none;border-top:1px solid #e6e6e6;margin:18px 0;">
+  </header>
 
-</body>
-</html>
+  <main style="max-width:900px;margin:0 auto;padding:0 16px 64px;">
+    <div class="slideshow" aria-label="Book cover slideshow" role="region" style="padding:12px 0;">
+      <ul>
+
+        <!-- BOOK LIST ITEMS BELOW -->
+        <li>
+          <a href="https://ezproxyprod.ucs.louisiana.edu:2443/login?url=https://search.credoreference.com/books/Qm9va1R5cGU6NzE4MTg=" target="_blank" rel="noopener">
+            <img src="https://clib.infobase.com/credoArchive/jackets/166pix/princetonbirds2018.png" alt="Birds of Central America: field guide" />
+          </a>
+        </li>
+
+        <li>
+          <a href="https://ezproxyprod.ucs.louisiana.edu:2443/login?url=https://search.credoreference.com/books/Qm9va1R5cGU6NzE4MjE=" target="_blank" rel="noopener">
+            <img src="https://clib.infobase.com/credoArchive/jackets/166pix/princetonuxj2021.png" alt="Birds of Puerto Rico and the Virgin Islands" />
+          </a>
+        </li>
+
+        <li>
+          <a href="https://ezproxyprod.ucs.louisiana.edu:2443/login?url=https://search.credoreference.com/books/Qm9va1R5cGU6NzE4MDI=" target="_blank" rel="noopener">
+            <img src="https://clib.infobase.com/credoArchive/jackets/166pix/princetonbwi2020.png" alt="Birds of the West Indies" />
+          </a>
+        </li>
+
+        <li>
+          <a href="https://ezproxyprod.ucs.louisiana.edu:2443/login?url=https://search.credoreference.com/books/Qm9va1R5cGU6NzE3MzA=" target="_blank" rel="noopener">
+            <img src="https://clib.infobase.com/credoArchive/jackets/166pix/galegnd2023.png" alt="Gale Encyclopedia of Neurological Disorders" />
+          </a>
+        </li>
+
+        <li>
+          <a href="https://ezproxyprod.ucs.louisian

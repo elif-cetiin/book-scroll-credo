@@ -26,4 +26,4 @@ A lightweight and embeddable book cover slideshow widget for LibGuides (HTML, CS
 https://library.louisiana.edu/
 
 This widget is used as part of the University of Louisiana at Lafayette Libraries web resources.  
-Maintained by **Elif Cetin** — University of Louisiana at Lafayette Libraries.
+Maintained by **Elif Cetin** - University of Louisiana at Lafayette Libraries.

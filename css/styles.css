@@ -1,0 +1,24 @@
+.slideshow ul {
+  margin: 0;
+  padding: 0;
+}
+
+.slideshow ul li {
+  display: inline-block;
+}
+
+.slideshow {
+  overflow: hidden;
+}
+
+.slideshow img {
+  height: 145px !important;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+  transition: 0.3s;
+}
+
+.slideshow img:hover {
+  box-shadow: 0 0 0 3px #BA0303;
+}

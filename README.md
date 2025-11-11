@@ -4,7 +4,7 @@ A lightweight and embeddable book cover slideshow widget for LibGuides (HTML, CS
 
 ---
 
-## Features
+# Features
 - Automatically scrolls book covers horizontally
 - Each book cover is clickable (opens in a new tab)
 - No external frameworks required (uses only HTML, CSS, and jQuery)
@@ -12,7 +12,7 @@ A lightweight and embeddable book cover slideshow widget for LibGuides (HTML, CS
 
 ---
 
-## Project Structure
+# Project Structure
 /
 ├── index.html  
 ├── css/  
@@ -22,8 +22,8 @@ A lightweight and embeddable book cover slideshow widget for LibGuides (HTML, CS
 
 ---
 
-## Official Library Website
+# Official Library Website
 https://library.louisiana.edu/
 
 This widget is used as part of the University of Louisiana at Lafayette Libraries web resources.  
-Maintained by **Elif Cetin** - University of Louisiana at Lafayette Libraries.
+Maintained by Elif Cetin - University of Louisiana at Lafayette Libraries.
